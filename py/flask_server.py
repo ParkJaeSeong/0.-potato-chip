@@ -26,8 +26,8 @@ def employee(name=None):
     db = get_db()
     curs = db.cursor()
     curs.execute(
-        'CREATE TABLE IF NOT EXISTS person( '
-        'id INTEGER PRIMARY KEY AUTOINCREMENT, namd STRING)'
+        'CREATE TABLE IF NOT EXISTS persons( '
+        'id INTEGER PRIMARY KEY AUTOINCREMENT, name STRING)'
     )
     db.commit()
     
