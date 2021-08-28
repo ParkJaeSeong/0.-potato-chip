@@ -1,0 +1,88 @@
+action: GLOB, msg: packaging
+cwd: /Users/jspark/Documents/git/0.-potato-chip/Python 3 입문 (Udemy)/s14. 테스트/S09. 입문편의 마무리/python_programming_demo_app-0.0.1
+cmd: /Users/jspark/opt/anaconda3/envs/study/bin/python3.9 setup.py sdist --formats=zip --dist-dir '/Users/jspark/Documents/git/0.-potato-chip/Python 3 입문 (Udemy)/s14. 테스트/S09. 입문편의 마무리/python_programming_demo_app-0.0.1/.tox/dist'
+/Users/jspark/opt/anaconda3/envs/study/lib/python3.9/distutils/dist.py:274: UserWarning: Unknown distribution option: 'test_suits'
+  warnings.warn(msg)
+running sdist
+running egg_info
+writing python_programming_demo_app.egg-info/PKG-INFO
+writing dependency_links to python_programming_demo_app.egg-info/dependency_links.txt
+writing requirements to python_programming_demo_app.egg-info/requires.txt
+writing top-level names to python_programming_demo_app.egg-info/top_level.txt
+reading manifest file 'python_programming_demo_app.egg-info/SOURCES.txt'
+writing manifest file 'python_programming_demo_app.egg-info/SOURCES.txt'
+running check
+creating python_programming_demo_app-0.0.2
+creating python_programming_demo_app-0.0.2/python_programming_demo_app.egg-info
+creating python_programming_demo_app-0.0.2/roboter
+creating python_programming_demo_app-0.0.2/roboter/controller
+creating python_programming_demo_app-0.0.2/roboter/models
+creating python_programming_demo_app-0.0.2/roboter/templates
+creating python_programming_demo_app-0.0.2/roboter/tests
+creating python_programming_demo_app-0.0.2/roboter/tests/roboter
+creating python_programming_demo_app-0.0.2/roboter/tests/roboter/models
+creating python_programming_demo_app-0.0.2/roboter/views
+copying files to python_programming_demo_app-0.0.2...
+copying README.txt -> python_programming_demo_app-0.0.2
+copying setup.cfg -> python_programming_demo_app-0.0.2
+copying setup.py -> python_programming_demo_app-0.0.2
+copying python_programming_demo_app.egg-info/PKG-INFO -> python_programming_demo_app-0.0.2/python_programming_demo_app.egg-info
+copying python_programming_demo_app.egg-info/SOURCES.txt -> python_programming_demo_app-0.0.2/python_programming_demo_app.egg-info
+copying python_programming_demo_app.egg-info/dependency_links.txt -> python_programming_demo_app-0.0.2/python_programming_demo_app.egg-info
+copying python_programming_demo_app.egg-info/requires.txt -> python_programming_demo_app-0.0.2/python_programming_demo_app.egg-info
+copying python_programming_demo_app.egg-info/top_level.txt -> python_programming_demo_app-0.0.2/python_programming_demo_app.egg-info
+copying roboter/__init__.py -> python_programming_demo_app-0.0.2/roboter
+copying roboter/controller/__init__.py -> python_programming_demo_app-0.0.2/roboter/controller
+copying roboter/controller/conversation.py -> python_programming_demo_app-0.0.2/roboter/controller
+copying roboter/models/__init__.py -> python_programming_demo_app-0.0.2/roboter/models
+copying roboter/models/ranking.py -> python_programming_demo_app-0.0.2/roboter/models
+copying roboter/models/robot.py -> python_programming_demo_app-0.0.2/roboter/models
+copying roboter/templates/good_by.txt -> python_programming_demo_app-0.0.2/roboter/templates
+copying roboter/templates/greeting.txt -> python_programming_demo_app-0.0.2/roboter/templates
+copying roboter/templates/hello.txt -> python_programming_demo_app-0.0.2/roboter/templates
+copying roboter/templates/which_restaurant.txt -> python_programming_demo_app-0.0.2/roboter/templates
+copying roboter/tests/__init__.py -> python_programming_demo_app-0.0.2/roboter/tests
+copying roboter/tests/roboter/__init__.py -> python_programming_demo_app-0.0.2/roboter/tests/roboter
+copying roboter/tests/roboter/models/__init__.py -> python_programming_demo_app-0.0.2/roboter/tests/roboter/models
+copying roboter/tests/roboter/models/test_robot.py -> python_programming_demo_app-0.0.2/roboter/tests/roboter/models
+copying roboter/views/__init__.py -> python_programming_demo_app-0.0.2/roboter/views
+copying roboter/views/console.py -> python_programming_demo_app-0.0.2/roboter/views
+Writing python_programming_demo_app-0.0.2/setup.cfg
+creating /Users/jspark/Documents/git/0.-potato-chip/Python 3 입문 (Udemy)/s14. 테스트/S09. 입문편의 마무리/python_programming_demo_app-0.0.1/.tox/dist
+creating '/Users/jspark/Documents/git/0.-potato-chip/Python 3 입문 (Udemy)/s14. 테스트/S09. 입문편의 마무리/python_programming_demo_app-0.0.1/.tox/dist/python_programming_demo_app-0.0.2.zip' and adding 'python_programming_demo_app-0.0.2' to it
+adding 'python_programming_demo_app-0.0.2'
+adding 'python_programming_demo_app-0.0.2/roboter'
+adding 'python_programming_demo_app-0.0.2/python_programming_demo_app.egg-info'
+adding 'python_programming_demo_app-0.0.2/PKG-INFO'
+adding 'python_programming_demo_app-0.0.2/setup.py'
+adding 'python_programming_demo_app-0.0.2/README.txt'
+adding 'python_programming_demo_app-0.0.2/setup.cfg'
+adding 'python_programming_demo_app-0.0.2/roboter/tests'
+adding 'python_programming_demo_app-0.0.2/roboter/models'
+adding 'python_programming_demo_app-0.0.2/roboter/controller'
+adding 'python_programming_demo_app-0.0.2/roboter/templates'
+adding 'python_programming_demo_app-0.0.2/roboter/views'
+adding 'python_programming_demo_app-0.0.2/roboter/__init__.py'
+adding 'python_programming_demo_app-0.0.2/roboter/tests/roboter'
+adding 'python_programming_demo_app-0.0.2/roboter/tests/__init__.py'
+adding 'python_programming_demo_app-0.0.2/roboter/tests/roboter/models'
+adding 'python_programming_demo_app-0.0.2/roboter/tests/roboter/__init__.py'
+adding 'python_programming_demo_app-0.0.2/roboter/tests/roboter/models/test_robot.py'
+adding 'python_programming_demo_app-0.0.2/roboter/tests/roboter/models/__init__.py'
+adding 'python_programming_demo_app-0.0.2/roboter/models/__init__.py'
+adding 'python_programming_demo_app-0.0.2/roboter/models/ranking.py'
+adding 'python_programming_demo_app-0.0.2/roboter/models/robot.py'
+adding 'python_programming_demo_app-0.0.2/roboter/controller/conversation.py'
+adding 'python_programming_demo_app-0.0.2/roboter/controller/__init__.py'
+adding 'python_programming_demo_app-0.0.2/roboter/templates/which_restaurant.txt'
+adding 'python_programming_demo_app-0.0.2/roboter/templates/good_by.txt'
+adding 'python_programming_demo_app-0.0.2/roboter/templates/greeting.txt'
+adding 'python_programming_demo_app-0.0.2/roboter/templates/hello.txt'
+adding 'python_programming_demo_app-0.0.2/roboter/views/console.py'
+adding 'python_programming_demo_app-0.0.2/roboter/views/__init__.py'
+adding 'python_programming_demo_app-0.0.2/python_programming_demo_app.egg-info/PKG-INFO'
+adding 'python_programming_demo_app-0.0.2/python_programming_demo_app.egg-info/SOURCES.txt'
+adding 'python_programming_demo_app-0.0.2/python_programming_demo_app.egg-info/requires.txt'
+adding 'python_programming_demo_app-0.0.2/python_programming_demo_app.egg-info/top_level.txt'
+adding 'python_programming_demo_app-0.0.2/python_programming_demo_app.egg-info/dependency_links.txt'
+removing 'python_programming_demo_app-0.0.2' (and everything under it)
